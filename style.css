@@ -1,0 +1,104 @@
+body{
+	margin: 0;\
+}
+.main{
+	height: 400px;
+	background-image: url(banner.png);
+	background-size: 150% 100%;
+}
+.priorities{
+	height: 690px;
+	padding-top: 100px;
+	background-color: #111111;
+}
+.block{
+	height: 400px;
+	width: 400px;
+	margin-left: 165px;
+	text-align: center;
+	font-family: arial;
+	color: white;
+}
+.map{
+	height: 740px;
+	text-align: center;
+	padding-top: 80px;
+	background-color: #111111;
+}
+.blockpic{
+	height: 400px;
+	width: 400px;
+	transition: 0.5s;
+}
+.blockpic:hover{
+	transform: scale(1.05);
+}
+.flex{
+	display: flex;
+}
+.text{
+	text-align: center;
+	font-family: arial;
+	color: white;
+}
+form{
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+}
+input{
+	box-sizing: border-box;
+	display: block;
+	border: none;
+	box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.11);
+	padding: 10px 20px;
+	width: 100%;
+	margin: 10px 0;
+	outline: none;
+}
+input[type="submit"]{
+	background: red;
+	border: none;
+	box-shadow: 0px 2px 0 1px #C50909;
+	border-radius: 5px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 600;
+	width: 200px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+input[type="submit"]:hover{
+	background: black;
+	box-shadow: 0px 2px 0 1px black;
+}
+.online{
+	padding-top: 30px;
+	background-color: #232323;
+	height: 400px;
+}
+.contacts{
+	margin-left: 780px;
+	margin-top: 20px;
+}
+.contacts1{
+	margin-left: 50px;
+	height: 60px;
+	transition: 0.6s;
+}
+.contacts1:hover{
+	transform: scale(1.1);
+}
+.info{
+	height: 400px;
+	background-color: #111111;
+	padding-top: 20px; 
+	color: white;
+	display: flex;
+}
+.infotext{
+	width: 400px;
+	text-align: center;
+	font-family: arial;
+	margin-left: 165px;
+}
